@@ -12,7 +12,7 @@ dependencies:
     version: ~> 0.3.3
 
   kemalyst-model:
-    github: drujensen/kemalyst-model
+    github: kemalyst/kemalyst-model
   db:
     github: crystal-lang/crystal-db
 
@@ -24,6 +24,6 @@ targets:
   rocky:
     main: src/rocky.cr
 
-crystal: 0.21.1
+crystal: 0.23.1
 
 license: MIT

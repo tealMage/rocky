@@ -38,7 +38,9 @@
   },
   "scripts": {
     "server": "crystal src/rocky.cr",
+    "server mac": "crystal src/rocky.cr  --link-flags  -L/usr/local/opt/openssl/lib",        
     "server build": "crystal build --release src/rocky.cr",
+    "server mac build": "crystal build --release src/rocky.cr  --link-flags  -L/usr/local/opt/openssl/lib",            
     "bundle": "./node_modules/.bin/webpack",
     "production": "./node_modules/.bin/webpack -p",
     "watch": "gulp",

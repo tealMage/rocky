@@ -96,8 +96,10 @@ Install Gulp to be your task runner.
 
 ## Getting Started
 ```shell
-#terminal
+#terminal for Linux
 yarn run server
+#terminal for Mac
+yarn run "server mac"
 ```
 
 To test everything is good run the server.
